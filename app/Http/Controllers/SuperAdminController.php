@@ -11,7 +11,7 @@ class SuperAdminController extends Controller
      */
     public function index()
     {
-        dd("role working");
+        return view('super-admin.index');
     }
 
     /**
