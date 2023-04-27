@@ -2,16 +2,12 @@
 
 @section('content')
 
-    <x-form-store action="">
-        <x-light-button>Save</x-light-button>
-        <x-primary-button>Save</x-primary-button>
-        <x-secondary-button>Save</x-secondary-button>
-        <x-warning-button>Save</x-warning-button>
-        <x-dark-button>Save</x-dark-button>
-        <x-danger-button>Save</x-danger-button>
-    </x-form-store>
 
 
+<x-success-alert>
+   <x-alert-heading>Success</x-alert-heading>
+    <x-alert-text>User Created Successfully!</x-alert-text>
+</x-success-alert>
 
 @endsection
 
